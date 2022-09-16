@@ -1,0 +1,50 @@
+.navbar_container {
+    height: 60px;
+}
+.navbar_wrapper {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar_left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.navbar_language {
+    font-size: 14px;
+    cursor: pointer;
+}
+.navbar_search_container {
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.navbar_input {
+    border: none;
+}
+.navbar_center {
+    flex: 1;
+    text-align: center;
+}
+.navbar_logo {
+    font-weight: bold;
+    font-size: 30px;
+}
+.navbar_menu_item {
+    font-size: 14px;
+    cursor: pointer;
+}
+.navbar_sign_in, .navbar_cart {
+    margin-left: 25px;
+}
+.navbar_right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
