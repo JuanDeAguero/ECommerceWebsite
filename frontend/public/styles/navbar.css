@@ -1,22 +1,22 @@
-.navbar_container {
+.navbar-container {
     height: 60px;
 }
-.navbar_wrapper {
+.navbar-wrapper {
     padding: 10px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.navbar_left {
+.navbar-left {
     flex: 1;
     display: flex;
     align-items: center;
 }
-.navbar_language {
+.navbar-language {
     font-size: 14px;
     cursor: pointer;
 }
-.navbar_search_container {
+.navbar-search-container {
     border: 1px solid lightgray;
     display: flex;
     align-items: center;
@@ -24,25 +24,25 @@
     padding: 5px;
     border-radius: 5px;
 }
-.navbar_input {
+.navbar-input {
     border: none;
 }
-.navbar_center {
+.navbar-center {
     flex: 1;
     text-align: center;
 }
-.navbar_logo {
+.navbar-logo {
     font-weight: bold;
     font-size: 30px;
 }
-.navbar_menu_item {
+.navbar-menu-item {
     font-size: 14px;
     cursor: pointer;
 }
-.navbar_sign_in, .navbar_cart {
+.navbar-sign-in, .navbar-cart {
     margin-left: 25px;
 }
-.navbar_right {
+.navbar-right {
     flex: 1;
     display: flex;
     align-items: center;
